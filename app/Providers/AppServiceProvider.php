@@ -30,7 +30,7 @@ class AppServiceProvider extends ServiceProvider
             return "<?php echo route($expression) ?>";
         });
 
-        // old directive
+        // old directive, or blade::if directive
         Blade::directive('old', function ($expression) {
             return "<?php echo old($expression); ?>";
         });
