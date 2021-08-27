@@ -1,0 +1,31 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+.custom-linke a:hover {
+    background-color: #c1c1c1;
+}
+
+.is-invalid {
+    border-color: red;
+}
+
+.is-invalid:hover {
+    border-color: red;
+}
+
+.is-invalid:focus {
+    border-color: red
+}
+
+.alert.alert-success {
+    background: #3b82f6;
+    padding: 11px 10px;
+    position: fixed;
+    text-align: end;
+    color: #fff;
+    font-size: 14px;
+    bottom: 10px;
+    right: 11px;
+}
